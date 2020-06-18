@@ -1,4 +1,4 @@
 ﻿var ControlPrefixes = [
-    { "Value": "lblLogin" },
+    { "Value": "lblLogin_" },
     { "Value": "lblDisp_" }
 ];
