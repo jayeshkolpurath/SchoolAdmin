@@ -1,0 +1,93 @@
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.vbprojAssemblyReference.cache
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School_Admin.Resources.resources
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.vbproj.GenerateResource.cache
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.vbproj.CoreCompileInputs.cache
+F:\Pulse\School Admin\School Admin\School Admin\bin\School Admin.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\School Admin.pdb
+F:\Pulse\School Admin\School Admin\School Admin\bin\School Admin.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\csc.exe
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\csc.exe.config
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\csc.rsp
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\csi.exe
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\csi.exe.config
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\csi.rsp
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.AppContext.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Collections.Immutable.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Console.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Globalization.Calendars.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.IO.Compression.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.IO.FileSystem.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Net.Http.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Net.Sockets.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Reflection.Metadata.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.ValueTuple.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Xml.XPath.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\vbc.exe
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\vbc.exe.config
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\vbc.rsp
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\VBCSCompiler.exe
+F:\Pulse\School Admin\School Admin\School Admin\bin\roslyn\VBCSCompiler.exe.config
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Google.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Owin.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Google.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.vbproj.CopyComplete
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.dll
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.xml
+F:\Pulse\School Admin\School Admin\School Admin\obj\Debug\School Admin.pdb
+F:\Pulse\School Admin\School Admin\School Admin\bin\School Admin.dll.config
+F:\Pulse\School Admin\School Admin\School Admin\bin\Microsoft.Web.Infrastructure.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.Helpers.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.Mvc.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.Razor.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.WebPages.Deployment.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.WebPages.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.WebPages.Razor.dll
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.Helpers.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.Mvc.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.Razor.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.WebPages.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.WebPages.Deployment.xml
+F:\Pulse\School Admin\School Admin\School Admin\bin\System.Web.WebPages.Razor.xml
