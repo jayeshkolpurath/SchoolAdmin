@@ -1,4 +1,6 @@
-﻿var ControlPrefixes = [
-    { "Value": "lblLogin_" },
-    { "Value": "lblDisp_" }
-];
+﻿var txtNew = "txtNew_";
+var txtExt = "txtExt_";
+var btnSubmit = "btnSubmt_";
+
+
+
