@@ -118,23 +118,25 @@ text-align: center;
 #lst_ThemeOptions{
     position: absolute;
     width:100%;
-    height:25%;
     margin:25%;
-    background: beige;
-    border-color: white;
+    background: grey;
+    border-color: rgb(243, 228, 228);
     border-width: 2px;
     border-radius: 5px;
 }
 
 #lst_ThemeOptions li{
-    width:100%;
-    color:blue;
+    color:black;
     margin:5px;
     background: white;
     border-width: 2px;
     border-radius: 5px;
     border-color: brown;
-
+    cursor: pointer;
+}
+#PopupBox{
+    position: absolute;
+    margin-left: 50%;    
 }
 
 @media only screen and (min-width: 650px) {

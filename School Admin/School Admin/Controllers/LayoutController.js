@@ -43,6 +43,10 @@ class LayoutController extends ControllerBase {
         }
         return SideMenu;
     }
+    _FetchThemes(){
+        var ThemeList =  [{Name:"Classic"},{Name:"Dark"},{Name:"Modern"}];
+        return ThemeList;
+    }
 }
 
 
@@ -64,9 +68,11 @@ $(document).ready(function () {
     }
 
     $("#UserIcon").click(function(){
-        var html= "<div id='lst_ThemeOptions'><ul>";
-        html += "<li onclick='ThemeSelect(\"Classic\")'>Classic</li>";
-        html += "<li  onclick='ThemeSelect(\"Dark\")'>Dark</li>";
+        var Themes = Ctrl._FetchThemes();
+        var html= "<div id='lst_ThemeOptions'><div>Select Theme</div><ul>";
+        Themes.forEach(element => {
+            html += "<li onclick='ThemeSelect(\"" + element.Name + "\")'>"+ element.Name +"</li>";            
+        });
         html += "</ul></div>";
         $("#PopupBox").html(html);
         $("#PopupBox").show();
@@ -83,12 +89,14 @@ var MenuItems;
 function MenuClick(e) {
     /*   $("#PagePanel").load(e.data.MenuItem.MenuLink);*/
     $("#LeftPanel").empty();
+    $("#LeftPanel").hide();
     var SubMenuList = Ctrl._FetchLeftMenuItems(e.data.MenuItem.MenuName);
     for (var i = 0; i < SubMenuList.length; i++) {
         var Nm = $("<div>", { id: "LeftMenu" + (i + 1), class: "LeftMenu ThemeLeftMenu", text: SubMenuList[i].MenuText });
         Nm.on("click", { MenuItem: SubMenuList[i] }, SubMenuClick);
         $("#LeftPanel").append(Nm);
     }
+    $("#LeftPanel").show();
 }
 
 function SubMenuClick(e) {
@@ -98,7 +106,7 @@ function SubMenuClick(e) {
 
 function LoadTheme(Ctrl) {
     var ThemeName=Ctrl.GetTheme();
-    var ThemeUTL = "/Content/CSS/Themes/" + ThemeName + "/" + ThemeName  + ".css";
+    var ThemeUTL = "/Content/CSS/Themes/" +  ThemeName  + ".css";
     var cssFile = document.createElement("link");
     cssFile.rel="stylesheet";
     cssFile.Type = "text/css";

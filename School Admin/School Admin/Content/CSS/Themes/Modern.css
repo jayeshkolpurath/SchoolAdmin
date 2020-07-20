@@ -1,6 +1,6 @@
 ﻿.ThemeBody a{
-    color:white;
-    background: gray;
+    color:brown;
+    background: beige;
 }
 
 .ThemeBody a:link{
@@ -50,16 +50,16 @@
 }
 
 .ThemeLeftPanel{
-    background-color: #326b4a;
-    background: #e2e2e2; 
+    background:linear-gradient(#027876, #e2e2e2); 
 }
 
 .ThemeLeftMenu{
-    color: #0181bb;
+    color:white;
 }
 
 .ThemeLeftMenu:hover{
-    background: white;
+
+    background:linear-gradient(#027876, #e2e2e2); 
 }
 
 .ThemeLeftMenu a :link{
@@ -83,8 +83,8 @@ text-align: center;
 }
 
 .ThemeFooter{
-    color:white;
-    background:black;
+    color:green;
+    background:white;
 }
 .ThemeErrorMessage {
     color:darkred;
