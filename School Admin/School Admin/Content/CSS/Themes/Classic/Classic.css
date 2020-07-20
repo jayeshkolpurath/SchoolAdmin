@@ -1,6 +1,6 @@
 ﻿
 .ThemeBody a{
-    color:yellow;
+    color:black;
 }
 
 .ThemeBody a:link{
@@ -12,7 +12,7 @@
 }
 
 .ThemeTitleItem{
-color:brown;
+color:black;
 }
 
 .ThemeTitleText{
@@ -22,7 +22,7 @@ color:brown;
 }
 
 .ThemelnkSignOut{
-    color:white;
+    color:black;
     background:#626f80;
 }
 

@@ -4,7 +4,7 @@ class LayoutController extends ControllerBase {
         //Top Panel Menu Clicks
         MenuItems = this._FetchTopMenuItems();
         for (var i = 0; i < MenuItems.length; i++) {
-            var Nm = $("<div>", { id: "TopMenu" + (i + 1), class: "TopMenu", text: MenuItems[i].MenuText });
+            var Nm = $("<div>", { id: "TopMenu" + (i + 1), class: "TopMenu ThemeTopMenu", text: MenuItems[i].MenuText });
             Nm.on("click", { MenuItem: MenuItems[i] }, MenuClick);
             $("#TopMenuPanel").append(Nm);
         }
@@ -85,7 +85,7 @@ function MenuClick(e) {
     $("#LeftPanel").empty();
     var SubMenuList = Ctrl._FetchLeftMenuItems(e.data.MenuItem.MenuName);
     for (var i = 0; i < SubMenuList.length; i++) {
-        var Nm = $("<div>", { id: "LeftMenu" + (i + 1), class: "LeftMenu", text: SubMenuList[i].MenuText });
+        var Nm = $("<div>", { id: "LeftMenu" + (i + 1), class: "LeftMenu ThemeLeftMenu", text: SubMenuList[i].MenuText });
         Nm.on("click", { MenuItem: SubMenuList[i] }, SubMenuClick);
         $("#LeftPanel").append(Nm);
     }
@@ -117,17 +117,7 @@ function LoadContentPage(Location, ContentHTMLPageURL, ControllerURL) {
     }
 }
 
-/*
-function LoadContentPage(Location, ContentURL, ControllerURL) {
-    $("#" + Location).load(ContentURL);
-    if (LoadedControllers.indexOf(ControllerURL) === -1) {
-        $.getScript(ControllerURL).done(function (script, txtStatus) {
-            LoadedControllers.push(ControllerURL);
-            document.body.appendChild(script);
-        });
-    }
-}
-*/
+
 
 
 

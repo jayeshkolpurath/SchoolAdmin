@@ -1,5 +1,6 @@
 ﻿.ThemeBody a{
     color:white;
+    background: gray;
 }
 
 .ThemeBody a:link{
@@ -26,6 +27,7 @@
 }
 
 .ThemeTopPanel{
+    color:white;
     background: linear-gradient(180deg, #027876 3%,white 23%, #027876 40%);
 }
 
@@ -81,7 +83,8 @@ text-align: center;
 }
 
 .ThemeFooter{
-    background:#b9bbbd;
+    color:white;
+    background:black;
 }
 .ThemeErrorMessage {
     color:darkred;
