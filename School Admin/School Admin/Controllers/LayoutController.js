@@ -1,6 +1,6 @@
 ﻿//Controller Class
 class LayoutController extends ControllerBase {
-    HandlePageEvents() {
+    HandleMenuClicks() {
         //Top Panel Menu Clicks
         MenuItems = this._FetchTopMenuItems();
         for (var i = 0; i < MenuItems.length; i++) {
@@ -52,8 +52,8 @@ var Ctrl;
 $(document).ready(function () {
     Ctrl = new LayoutController();
     Ctrl.PageInit();
-    Ctrl.HandlePageEvents();
-
+    Ctrl.HandleMenuClicks();
+    LoadTheme(Ctrl);
     if (Ctrl.SessionCheck()) {
         var UserName = sessionStorage.getItem("SASessionID");
         $("#UserName").html(UserName);
@@ -62,12 +62,26 @@ $(document).ready(function () {
         Ctrl.Logout();
         window.location = "/Views/Login.html";
     }
+
+    $("#UserIcon").click(function(){
+        var html= "<div id='lst_ThemeOptions'><ul>";
+        html += "<li onclick='ThemeSelect(\"Classic\")'>Classic</li>";
+        html += "<li  onclick='ThemeSelect(\"Dark\")'>Dark</li>";
+        html += "</ul></div>";
+        $("#PopupBox").html(html);
+        $("#PopupBox").show();
+    });
     //Menu Click Handling
 });
 
+function ThemeSelect(ThemeName){
+    Ctrl.SetTheme(ThemeName);
+    $("#PopupBox").hide();
+    window.location = "/Views/Layout.html";
+}
 var MenuItems;
 function MenuClick(e) {
- /*   $("#PagePanel").load(e.data.MenuItem.MenuLink);*/
+    /*   $("#PagePanel").load(e.data.MenuItem.MenuLink);*/
     $("#LeftPanel").empty();
     var SubMenuList = Ctrl._FetchLeftMenuItems(e.data.MenuItem.MenuName);
     for (var i = 0; i < SubMenuList.length; i++) {
@@ -80,6 +94,16 @@ function MenuClick(e) {
 function SubMenuClick(e) {
     var MenuItem = e.data.MenuItem;
     LoadContentPage("PagePanel", MenuItem.MenuLink, "/Controllers/" + MenuItem.MenuName + "Controller.js");
+}
+
+function LoadTheme(Ctrl) {
+    var ThemeName=Ctrl.GetTheme();
+    var ThemeUTL = "/Content/CSS/Themes/" + ThemeName + "/" + ThemeName  + ".css";
+    var cssFile = document.createElement("link");
+    cssFile.rel="stylesheet";
+    cssFile.Type = "text/css";
+    cssFile.href = ThemeUTL;
+    document.body.appendChild(cssFile);
 }
 
 function LoadContentPage(Location, ContentHTMLPageURL, ControllerURL) {

@@ -11,6 +11,7 @@
     width: 25%;
     margin-top: 10%;
     padding: 25px;
-    background: #e2e2e2;
 }
-
+#lbl_ErrorMsg{
+    float: left;
+}

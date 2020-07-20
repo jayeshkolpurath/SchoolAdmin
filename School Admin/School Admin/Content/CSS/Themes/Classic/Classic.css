@@ -1,0 +1,90 @@
+﻿
+.ThemeBody a{
+    color:yellow;
+}
+
+.ThemeBody a:link{
+    color: black;
+}
+
+.ThemeTitlePanel{
+    color: #323a45;
+}
+
+.ThemeTitleItem{
+color:brown;
+}
+
+.ThemeTitleText{
+}
+
+.ThemeUserText{
+}
+
+.ThemelnkSignOut{
+    color:white;
+    background:#626f80;
+}
+
+.ThemeTopPanel{
+    background: #027876;
+    box-shadow: #e2e2e2;
+}
+
+.ThemeTopMenu a:hover{
+    color:black;
+}
+
+
+.ThemeTopMenu a{
+    color:#0181bb;    
+    cursor: pointer;
+}
+
+.ThemeTopMenu{
+   color:white;
+}
+
+.ThemeTopMenu:hover{
+    color:white;
+    background: #e2e2e2
+}
+
+.ThemeLeftPanel{
+    background-color: #326b4a;
+    background: #e2e2e2; 
+}
+
+.ThemeLeftMenu{
+    color: #0181bb;
+}
+.ThemeLeftMenu:hover{
+    background: white;
+}
+
+.ThemeLeftMenu a :link{
+    background-color: #fff;
+    background: #626f80;
+}
+
+.ThemeLeftMenu a:hover{
+    background-color: #fff;
+    background: #3b3c3d;
+}
+
+.ThemePagePanel{
+    border-color: cadetblue;
+}
+
+.ThemeBottomPanel{
+float: left;
+width:100%;
+}
+
+.ThemeFooter{
+    background:#b9bbbd;
+}
+.ThemeErrorMessage {
+    color:red;
+}
+

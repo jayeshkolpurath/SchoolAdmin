@@ -5,11 +5,15 @@ class LoginController extends ControllerBase {
         var objSessionHelper = new SessionHelper();
         var objLoginHelper = new LoginHelper();
         var objUserModel = objLoginHelper.FetchUserWithCredentials(UserName, Password);
-        if(objUserModel!=null) {
+        var Result = false;
+        if (objUserModel != null) {
             objSessionHelper.Save("SASessionID", "TestUser");
-        }else{
+            Result = true;
+        } else {
             objSessionHelper.Delete("SASessionID");
+            Result = false;
         }
+        return Result;
     }
 }
 
@@ -18,9 +22,13 @@ class LoginController extends ControllerBase {
 $(document).ready(function () {
     var Controller = new LoginController();
     $("#LoginButton").click(function () {
-        Controller.Login($("#txt_UserName").val(), $("#txt_Password").val());
-        $("#TitlePanel").css("display", "none");
-        window.location = "/Views/Layout.html";
+        var LoginResult = Controller.Login($("#txt_UserName").val(), $("#txt_Password").val());
+        if (LoginResult) {
+            $("#TitlePanel").css("display", "none");
+            window.location = "/Views/Layout.html";
+        } else {
+            $("#lbl_ErrorMsg").html("Invalid User Name or Password!");
+        }
     });
 
     $("#lnkSignOut").click(function () {

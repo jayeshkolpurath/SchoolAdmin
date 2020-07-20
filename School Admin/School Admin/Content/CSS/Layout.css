@@ -6,15 +6,12 @@
 }
 a{
     text-decoration: none;
-    color:white;
 }
 
 a:link{
-    color: black;
 }
 
 #TitlePanel{
-    color: #323a45;
     float: none;
     width: 100%;
 }
@@ -38,8 +35,6 @@ a:link{
 
 #lnkSignOut{
     float: right;
-    color:white;
-    background:#626f80;
     border-radius: 12px;
     padding: 4px;
     font-size: x-small;
@@ -47,26 +42,22 @@ a:link{
 
 .TopPanel{
     float: left;
-    background: linear-gradient(180deg, #027876 3%,white 23%, #027876 40%);
     width: 100%;
     padding-left:50vw;
     border-top-left-radius:10px;
 }
 
 .TopMenu a:hover{
-    color:black;
 }
 
 
 .TopMenu a{
-    color:#0181bb;    
     cursor: pointer;
 }
 
 .TopMenu{
    float: left;
    background:transparent;
-   color:white;
     margin:5px;    
     padding-right: 5vw;
     padding-left: 5px;
@@ -76,40 +67,30 @@ a:link{
 }
 
 .TopMenu:hover{
-    color:white;
-    background:linear-gradient(180deg,#027876, #027876 61%,white 93%, #027876 100%);
 }
 
 .LeftPanel{
     float: left;
-    background-color: #326b4a;
     width:10vw;   
-    background: #e2e2e2; 
 }
 
 .LeftMenu{
     float: none;
     padding-top: 5%;
     padding-left: 2%;
-    color: #0181bb;
     cursor: pointer;
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
 }
 .LeftMenu:hover{
-    background: white;
 }
 
 .LeftMenu a :link{
-    background-color: #fff;
-    background: #626f80;
 
 }
 
 .LeftMenu a:hover{
-    background-color: #fff;
-    background: #3b3c3d;
 }
 
 #PagePanel{
@@ -117,7 +98,6 @@ a:link{
     margin:5px;
     float: left;
     border-radius: 1%;
-    border-color: cadetblue;
     overflow: auto;
     border-style: solid;
     border-width: 1px;
@@ -127,17 +107,35 @@ a:link{
 #BottomPanel{
 float: left;
 width:100%;
-background:#858a8f;
 text-align: center;
 }
 #Footer{
     float: left;
     width:100%;
     font-size: small;
-    background:#b9bbbd;
     text-align: center;
 }
+#lst_ThemeOptions{
+    position: absolute;
+    width:100%;
+    height:25%;
+    margin:25%;
+    background: beige;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+}
 
+#lst_ThemeOptions li{
+    width:100%;
+    color:blue;
+    margin:5px;
+    background: white;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: brown;
+
+}
 
 @media only screen and (min-width: 650px) {
     TitlePanel{
