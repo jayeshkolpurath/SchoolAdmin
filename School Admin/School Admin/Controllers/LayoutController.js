@@ -27,6 +27,7 @@ class LayoutController extends ControllerBase {
         switch (TopMenu) {
             case "Home":
                 SideMenu = [
+                    { MenuName: "Home", MenuText: "Home", MenuLink: "/Views/Home.html" },
                     { MenuName: "Gallery", MenuText: "Gallery", MenuLink: "/Views/Gallery.html" },
                     { MenuName: "Notifications", MenuText: "Notifications", MenuLink: "/Views/Notifications.html" }
                 ];
@@ -61,6 +62,7 @@ $(document).ready(function () {
     if (Ctrl.SessionCheck()) {
         var UserName = sessionStorage.getItem("SASessionID");
         $("#UserName").html(UserName);
+        LoadContentPage("PagePanel", "/Views/Home.html", "/Controllers/HomeController.js");
     } else {
         $("#TitlePanel").css("display", "none");
         Ctrl.Logout();
