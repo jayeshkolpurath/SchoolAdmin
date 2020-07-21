@@ -67,7 +67,7 @@ $(document).ready(function () {
         window.location = "/Views/Login.html";
     }
 
-    $("#UserIcon").click(function(){
+    $("#btnTheme").click(function(){
         var Themes = Ctrl._FetchThemes();
         var html= "<div id='lst_ThemeOptions'><div>Select Theme</div><ul>";
         Themes.forEach(element => {

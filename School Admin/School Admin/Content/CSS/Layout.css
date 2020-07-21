@@ -24,7 +24,9 @@ a:link{
 #TitleText{
   float: left;
 }
-
+#btnTheme{
+    width: 2vw;
+}
 #UserText{
     float: right;
 }
@@ -138,6 +140,31 @@ text-align: center;
     position: absolute;
     margin-left: 50%;    
 }
+
+._txtText{
+text-align: left;
+}
+
+._lblInput{
+
+}
+
+._lblGroup{
+
+}
+
+._txtNumber{
+text-align: right;
+}
+
+._lblErrorMsg{
+
+}
+
+._lblWarning{
+color:brown;
+}
+
 
 @media only screen and (min-width: 650px) {
     TitlePanel{
