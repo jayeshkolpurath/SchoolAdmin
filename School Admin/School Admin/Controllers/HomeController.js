@@ -3,7 +3,7 @@ $(document).ready(function () {
     var Ctrl = new HomeController();
     Ctrl.PageInit();
     if (Ctrl.SessionCheck()) {
-        Ctrl.DoPageRendering();        
+        Ctrl.RenderPage();        
     } else {
         $("#TitlePanel").css("display","none");
         Ctrl.Logout();
@@ -12,7 +12,7 @@ $(document).ready(function () {
 });
 
 class HomeController extends ControllerBase{
-DoPageRendering(){
+    RenderPage(){
     
 }}
 

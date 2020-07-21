@@ -2,7 +2,7 @@
     var Ctrl = new MarksEntryController();
     Ctrl.PageInit();
     if (Ctrl.SessionCheck()) {
-        Ctrl.DoPageRendering();
+        Ctrl.RenderPage();
     } else {
         $("#TitlePanel").css("display","none");
         Ctrl.Logout();
@@ -11,7 +11,7 @@
 });
 
 class MarksEntryController extends ControllerBase {
-    DoPageRendering() {
+    RenderPage() {
         $("#Content").html ("Hello");
     }
 }
