@@ -3,8 +3,7 @@
 class LoginController extends ControllerBase {
     Login(UserName, Password) {
         var objSessionHelper = new SessionHelper();
-        var objLoginHelper = new LoginHelper();
-        var objUserModel = objLoginHelper.FetchUserWithCredentials(UserName, Password);
+        var objUserModel = UserModel.FetchUserWithCredentials(UserName, Password);
         var Result = false;
         if (objUserModel != null) {
             objSessionHelper.Save("SASessionID", "TestUser");

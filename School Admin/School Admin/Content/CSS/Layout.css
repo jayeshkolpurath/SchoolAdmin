@@ -26,6 +26,7 @@ a:link{
 }
 #btnTheme{
     width: 2vw;
+    cursor:pointer;
 }
 #UserText{
     float: right;
@@ -37,9 +38,9 @@ a:link{
 
 #lnkSignOut{
     float: right;
-    border-radius: 12px;
-    padding: 4px;
-    font-size: x-small;
+    width:1.5vw;
+    margin: 2px;
+    cursor:pointer;
 }
 
 .TopPanel{
@@ -74,6 +75,7 @@ a:link{
 .LeftPanel{
     float: left;
     width:10vw;   
+    height: 80vh;
 }
 
 .LeftMenu{
