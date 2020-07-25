@@ -159,12 +159,19 @@ text-align: left;
 text-align: right;
 }
 
+._btnOK{
+    text-align: center;
+}
+
+._btnCancel{
+    text-align: center;
+}
+
 ._lblErrorMsg{
 
 }
-
 ._lblWarning{
-color:brown;
+    
 }
 
 

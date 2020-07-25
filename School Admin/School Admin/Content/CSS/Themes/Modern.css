@@ -90,4 +90,37 @@ text-align: center;
     color:darkred;
 }
 
+.Theme_txtText{
+    color:black;
+    background: white;
+        }
+        
+        .Theme_lblInput{
+        color:black;
+        }
+        
+        .Theme_lblGroup{
+        border-color:white;
+        }
+        
+        .Theme_txtNumber{
+    color:black;
+        }
+        
+        .Theme_btnOK{
+            color:darkgray;
+        }
+        
+        .Theme_btnCancel{
+            color:gray;
+        }
+        
+        ._lblErrorMsg{
+        color:red;
+        }
+        
+        .Theme_lblWarning{
+            color:red;
+        }
+        
 
