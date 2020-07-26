@@ -3,16 +3,17 @@ $(document).ready(function () {
     var Ctrl = new HomeController();
     Ctrl.PageInit();
     if (Ctrl.SessionCheck()) {
-        Ctrl.RenderPage();        
+        Ctrl.RenderPage();
     } else {
-        $("#TitlePanel").css("display","none");
+        $("#TitlePanel").css("display", "none");
         Ctrl.Logout();
         $("#PagePanel").load("/Views/Login.html");
     }
 });
 
-class HomeController extends ControllerBase{
-    RenderPage(){
-    
-}}
+class HomeController extends ControllerBase {
+    RenderPage() {
+
+    }
+}
 

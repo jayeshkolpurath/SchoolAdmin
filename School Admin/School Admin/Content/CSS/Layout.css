@@ -148,10 +148,11 @@ text-align: left;
 }
 
 ._lblInput{
-
+position: relative;
+float: left;
 }
 
-._lblGroup{
+._lblGroupHd{
 
 }
 

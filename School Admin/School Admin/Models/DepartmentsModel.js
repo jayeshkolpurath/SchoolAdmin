@@ -1,5 +1,6 @@
-﻿class DepartmentModel extends ModelBase {
+﻿class DepartmentsModel extends ModelBase {
     constructor(Departments) {
+        super();
         this.Departments = Departments;
     }
     Update() {
@@ -14,17 +15,20 @@
             }
         });
     }
-    Get(){
-
+    static Get() {
+        var Dept = DepartmentsHelper.GetDepartments();
+        var Departments = [];
+        Dept.forEach(element => {
+            Departments.push(new DepartmentEntry(element.ID, element.Name, ""));
+        });
+        return Departments;
     }
 }
 
 class DepartmentEntry {
     constructor(ID, Name, Action) {
-        this.id = id;
-        this.name = name;
+        this.ID = ID;
+        this.Name = Name;
         this.Action = Action;
     }
-
-
 }

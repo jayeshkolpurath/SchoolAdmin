@@ -1,3 +1,0 @@
-﻿class DepartmentHelper extends HelperBase{
-
-}

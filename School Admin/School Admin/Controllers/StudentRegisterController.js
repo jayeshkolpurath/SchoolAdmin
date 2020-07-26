@@ -1,4 +1,11 @@
-﻿$(document).ready(function () {
+﻿class StudentRegisterController extends ControllerBase {
+    RenderPage() {
+        $("#Content").html ("Hello");
+    }
+}
+
+
+$(document).ready(function () {
     var Ctrl = new StudentRegisterController();
     Ctrl.PageInit();
     if (Ctrl.SessionCheck()) {
@@ -10,9 +17,4 @@
     }
 });
 
-class StudentRegisterController extends ControllerBase {
-    RenderPage() {
-        $("#Content").html ("Hello");
-    }
-}
 
